@@ -1,2 +1,3 @@
 def solution(names):
-    return [name for i, name in enumerate(names) if i % 5 == 0]
+    answer = [name for idx, name in enumerate(names) if idx % 5 == 0 ]
+    return answer
